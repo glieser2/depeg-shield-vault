@@ -1,0 +1,15 @@
+[project]
+name = "depeg-shield-vault"
+version = "0.1.0"
+description = "Multi-Source Stablecoin & LST Depeg Protection and Proof-of-Reserve Circuit-Breaker Intelligent Contract on GenLayer"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "genlayer-test>=0.29.0",
+    "cloudpickle>=3.0.0",
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
